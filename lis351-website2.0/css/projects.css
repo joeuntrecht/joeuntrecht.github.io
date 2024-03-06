@@ -1,0 +1,54 @@
+#JUlogo{
+    height: 50px;
+    width: 50px;
+}
+
+body{
+    background-color: lightskyblue
+}
+
+a{
+    color:white;
+    font-family: 'Tangerine', serif;
+    font-size: xx-large;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.navigation{
+    width: 100%; 
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    background-color:#333;
+    z-index: 1000; 
+}
+
+#project-head{
+    padding-top: 50px;
+    z-index: 1; 
+}
+
+h1 {
+    text-align: center
+}
+
+#project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.project {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-img {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    display: block;
+}
